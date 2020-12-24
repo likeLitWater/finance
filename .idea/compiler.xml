@@ -6,16 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="product" />
+        <module name="common" />
         <module name="eureka-server" />
+        <module name="fund" />
+        <module name="spring-cloud-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common" target="8" />
       <module name="eureka-server" target="1.8" />
+      <module name="fund" target="8" />
+      <module name="product" target="8" />
+      <module name="spring-cloud-user" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
+      <module name="fund" options="-parameters" />
+      <module name="product" options="-parameters" />
+      <module name="spring-cloud-user" options="-parameters" />
     </option>
   </component>
 </project>

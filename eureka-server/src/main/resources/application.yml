@@ -5,4 +5,11 @@ server:
   port: 5001
 eureka:
   client:
+    # 是否向Eureka注册服务
     register-with-eureka: false
+    # 是否从Eureka上获取服务
+    fetch-registry: false
+    server-url:
+      defaultZone: http://localhost:5001/eureka/
+  instance:
+    hostname: 192.168.31.114

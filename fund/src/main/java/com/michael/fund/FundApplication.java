@@ -1,18 +1,18 @@
-package com.michael.user;
+package com.michael.fund;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @Package: com.michael.user
- * @ClassName: UserApplication
+ * @Package: com.michael.fund
+ * @ClassName: FundApplication
  * @Author: michael
- * @Date: 22:37
+ * @Date: 22:55
  * @Description: TODO
  */
 @SpringBootApplication
-public class UserApplication {
+public class FundApplication {
     public static void main(String[] args) {
-        SpringApplication.run(UserApplication.class, args);
+        SpringApplication.run(FundApplication.class, args);
     }
 }

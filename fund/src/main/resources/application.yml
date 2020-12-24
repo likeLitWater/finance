@@ -1,10 +1,8 @@
 spring:
   application:
-    name: user
+    name: fund
   profiles:
     active: peer2
-server:
-  port: 6002
 eureka:
   client:
     serviceUrl:

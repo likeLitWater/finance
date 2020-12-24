@@ -1,11 +1,2 @@
-spring:
-  application:
-    name: user
 server:
   port: 6002
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:5001/eureka/
-  instance:
-    hostname: 192.168.31.114
